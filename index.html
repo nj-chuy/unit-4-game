@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/reset.css">
+    <script type="text/javascript" src="assets/java.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+    <title>CrystalsCollector!</title>
+</head>
+
+<body>
+    <header id="header">CrystalsCollector!</header>
+
+    <div id="instructions">
+        <div>
+            You will be given a random number at the start of the game.
+
+            There are found crystals below. By clicking on a crystal you
+            will add a specific amount of points to your total score.
+        </div>
+        <br>
+        <div>
+            You win the game by matching your total score to random
+            number, you lose the game if your total score goes above
+            the random number.
+        </div>
+        <br>
+        <div>
+            The value of each crystal is hidden from you until you
+            click on it.
+        </div>
+        <br>
+        <div>
+            Each time when the game starts, the game will change the
+            values of each crystal.
+        </div>
+
+    </div>
+
+    <div class="targetNumber" class="clearfix">
+        <section id="randomBox">
+            <div>Target Number:
+                <span id="randomNum"></span>
+            </div>
+        </section>
+
+        <section id="count">
+            <h1>Wins:</h1>
+                <span id="wins">
+            <br>
+            <h1>Losses:</h1>
+                <span id="losses">
+        </section>
+    </div>
+
+
+    <br>
+
+    <section id="buttons">
+        <input id="btn1" type="image" src="assets/redCrystal.jpg" alt="Submit" width="100" height="100">
+        <input id="btn2" type="image" src="assets/blueCrystal.jpg" alt="Submit" width="100" height="100">
+        <input id="btn3" type="image" src="assets/yellowCrystal.jpg" alt="Submit" width="100" height="100">
+        <input id="btn4" type="image" src="assets/greenCrystal.jpg" alt="Submit"width="100" height="100">
+
+        <!-- <img class="btn" src="assets/redCrystal.jpg" onclick="myFunction(red)">
+        <img class="btn" src="assets/blueCrystal.jpg" onclick="myFunction(blue)">
+        <img class="btn" src="assets/yellowCrystal.jpg" onclick="myFunction(yellow)">
+        <img class="btn" src="assets/greenCrystal.jpg" onclick="myFunction(green)"> -->
+    </section>
+
+    <section id="totals">
+            <p>Your total score is:</p>
+            <span id="userTotal"></span>
+    </section>
+
+</body>
+
+</html>

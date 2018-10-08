@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+}
+
+body {background-image: url(background.JPG);
+
+}
+
+#header{background: orange;
+    padding: 35px;
+    margin: 5px;
+    color: white;
+    font-size: 28px;
+    border: 1px;
+    box-sizing: border-box;
+    width: 30%;
+    /* text-align: center;  */
+    /* margin-right: auto;
+    margin-left: auto; */
+}
+
+#instructions{
+    background: lightgoldenrodyellow;
+    color:green;
+    box-sizing: content-box;
+    padding: 5px;
+    margin: 1px;
+    width: 40%;
+    font-size: 20px;
+    line-height: 1.5;
+    /* margin-right: auto;
+    margin-left: auto; */
+}
+
+.countArea{
+    float:left;
+
+}
+
+.targetNumber{
+    width: 40%;
+    background: aqua;
+    padding: 10px;
+    display:inline-flex;
+
+}
+
+
+#randomBox {
+    height:150px;
+    width: 30%;
+    background-color:   green;
+    margin:1px;
+    color:white;
+
+}
+
+#count {
+    height:150px;
+    width: 20%;
+    background-color: powderblue;
+}
+
+
+#buttons{
+    box-sizing: border-box;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+
+#totals {
+    height:150px;
+    width: 30%;
+    background-color:   blue;
+    margin:1px;
+    color:white;
+    display:flex;
+
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
